@@ -1,0 +1,4 @@
+- [x] Apply owner-specified warm OKLCH tokens, champagne accents and tinted gradients/shadows; eliminate chroma-zero theme colors.
+- [x] Generate six individual host portraits and add per-host Vote controls, preserving email voting logic.
+- [x] Preserve existing layouts, content and motion per the owner's latest palette-only direction outside Podcast; broader layout changes superseded.
+- [x] Verified all pages, desktop/mobile portrait rendering, all six Vote controls, live result display and required-email validation; six existing tests pass. No test votes inserted into the live database.
