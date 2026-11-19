@@ -27,4 +27,6 @@ export const sponsorSchema = z.object({
 export const entrySchema = z.object({
   name, email, website,
   category: z.string().trim().min(1).max(60),
+  channel_url: z.string().trim().url("Enter a valid URL").max(255),
+  work_url: z.string().trim().url("Enter a valid URL").max(255),
 });
