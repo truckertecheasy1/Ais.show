@@ -17,24 +17,30 @@ export type Database = {
       entry_interest: {
         Row: {
           category: string
+          channel_url: string | null
           created_at: string
           email: string
           id: string
           name: string
+          work_url: string | null
         }
         Insert: {
           category: string
+          channel_url?: string | null
           created_at?: string
           email: string
           id?: string
           name: string
+          work_url?: string | null
         }
         Update: {
           category?: string
+          channel_url?: string | null
           created_at?: string
           email?: string
           id?: string
           name?: string
+          work_url?: string | null
         }
         Relationships: []
       }
