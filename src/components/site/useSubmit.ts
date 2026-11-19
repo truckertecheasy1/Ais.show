@@ -5,7 +5,7 @@ import { formToObject } from "./FormKit";
 import { t } from "@/lib/i18n";
 
 type Result = { ok: true } | { ok: false; error: string };
-type FormErrors = { name?: string | undefined; email?: string | undefined; company?: string | undefined; message?: string | undefined; host_choice?: string | undefined; category?: string | undefined };
+type FormErrors = { name?: string | undefined; email?: string | undefined; company?: string | undefined; message?: string | undefined; host_choice?: string | undefined; category?: string | undefined ; channel_url?: string | undefined; work_url?: string | undefined; };
 
 export function useSubmit<T>(schema: ZodSchema<T>, fn: (args: { data: T }) => Promise<Result>, successMsg: string = t.forms.success) {
   const [pending, setPending] = useState(false);
