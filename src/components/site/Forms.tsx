@@ -69,6 +69,9 @@ export function EntryInterestForm() {
           {CATEGORIES.map((c) => <option key={c.slug} value={c.slug}>{c.name}</option>)}
         </select>
       </Field>
+      <Field label="Your channel (YouTube or Instagram)" error={errors.channel_url}><input name="channel_url" type="url" className={fieldClass} maxLength={255} /></Field>
+      <Field label="Link to your work (video or post)" error={errors.work_url}><input name="work_url" type="url" className={fieldClass} maxLength={255} /></Field>
+      <p className="text-sm text-muted-foreground">We judge your work on your channel — link the video or post.</p>
       <Button type="submit" variant="silver" size="xl" disabled={pending}>
         {pending ? t.forms.sending : "Notify me when entries open"}
       </Button>
