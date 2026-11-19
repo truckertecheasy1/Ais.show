@@ -33,10 +33,10 @@ export const HOSTS: Host[] = [
 ];
 
 export const SPONSOR_TIERS = [
-  { id: "anchor", name: "Anchor Sponsor", price: "Exclusive", perks: ["Presenting credit: “THE AIs presented by …”", "Unlocks the guaranteed prize floor", "Gala opening segment", "Year-round brand placement"] },
-  { id: "platinum", name: "Platinum", price: "From $15,000", perks: ["Film of the Year co-presenter", "Logo on all ceremony broadcasts", "Podcast integration"] },
-  { id: "silver", name: "Silver", price: "From $7,500", perks: ["Most Viral segment partner", "Logo on site and stream", "Social campaign"] },
-  { id: "category", name: "Category Partner", price: "From $2,500", perks: ["Name a category award", "On-stage mention", "Winner announcement credit"] },
+  { id: "anchor", name: "Anchor Sponsor", price: "US$ 25,000+", perks: ["Presenting credit: “THE AIs presented by …”", "Unlocks the guaranteed prize floor", "Gala opening segment", "Year-round brand placement"] },
+  { id: "platinum", name: "Platinum", price: "US$ 15,000+", perks: ["Film of the Year co-presenter", "Logo on all ceremony broadcasts", "Podcast integration"] },
+  { id: "silver", name: "Silver", price: "US$ 7,500+", perks: ["Most Viral segment partner", "Logo on site and stream", "Social campaign"] },
+  { id: "category", name: "Category Partner", price: "US$ 2,500+", perks: ["Name a category award", "On-stage mention", "Winner announcement credit"] },
 ] as const;
 
 export const FAQ = [
